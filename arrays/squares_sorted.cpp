@@ -2,6 +2,8 @@
 #include <vector>
 using namespace std;
 
+// Problem: https://leetcode.com/problems/squares-of-a-sorted-array/ (EASY level)
+
 vector<int> squares(vector<int> v) {
     int n = v.size();
     int j = 0;
@@ -44,6 +46,6 @@ int main() {
         cout << x << " ";
     }
     cout << endl;
-    
+
     return 0;
 }
