@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// 1 2 2 3 3 3 4 4 4 4 
+// Problem: https://www.geeksforgeeks.org/remove-duplicates-from-a-sorted-linked-list/
 
 class node {
 public:
@@ -33,7 +33,6 @@ void print(node* head) {
     cout << endl;
     return;
 }
-// 1 1
 
 node* remove_duplicates(node* &head) {
     node* temp = head;
