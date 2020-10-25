@@ -2,6 +2,7 @@
 using namespace std;
 
 // Problem: https://www.geeksforgeeks.org/find-first-and-last-positions-of-an-element-in-a-sorted-array/
+// https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
 
 pair<int, int> first_last_occ(int *arr, int n, int x) {
 	// naive approach
