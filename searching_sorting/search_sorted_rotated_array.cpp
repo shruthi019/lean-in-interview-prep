@@ -2,6 +2,8 @@
 #include <vector>
 using namespace std;
 
+// Problem: https://leetcode.com/problems/search-in-rotated-sorted-array/
+
 int binary_search(vector<int>& nums, int lo, int hi, int key) {
     if (hi < lo) {
         return -1;
