@@ -2,6 +2,8 @@
 using namespace std;
 #define ll long long 
 
+// Problem: https://www.spoj.com/problems/EKO/ 
+
 int main() {
 	ll n, m;
     cin >> n >> m;
